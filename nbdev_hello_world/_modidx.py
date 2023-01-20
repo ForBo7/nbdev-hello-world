@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://ForBo7.github.io',
                 'git_url': 'https://github.com/ForBo7/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.hello_nbdev': { 'nbdev_hello_world.hello_nbdev.foo': ( 'hello_nbdev.html#foo',
+                                                                                      'nbdev_hello_world/hello_nbdev.py'),
+                                               'nbdev_hello_world.hello_nbdev.say_hello': ( 'hello_nbdev.html#say_hello',
+                                                                                            'nbdev_hello_world/hello_nbdev.py')}}}
